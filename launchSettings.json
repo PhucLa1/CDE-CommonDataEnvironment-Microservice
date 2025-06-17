@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "serviceActions": {
+        "ai-llm": "StartDebugging",
+        "yarpapigateway": "StartDebugging",
+        "auth.api": "StartDebugging",
+        "event.features": "StartDebugging",
+        "project.api": "StartDebugging"
+      }
+    }
+  }
+}

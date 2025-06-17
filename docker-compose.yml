@@ -1,0 +1,124 @@
+version: '3.9'
+
+services:
+  ai-llm:
+    image: aillm
+    build:
+      context: .
+      dockerfile: Services/AI-LLM/Dockerfile
+    ports:
+      - "5004:8080"
+      - "5054:8081"
+    environment:
+      - ConnectionStrings__AILLMDBContext=Server=sqlserver-main;Database=AILLMDB;User Id=sa;Password=StrongP@ssw0rd;TrustServerCertificate=True;
+      - RabbitMQ__HostName=rabbitmq
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      - sqlserver-main
+      - rabbitmq
+    networks:
+      - mynetwork
+
+  auth.api:
+    image: authapi
+    build:
+      context: .
+      dockerfile: Services/Auth/Auth.API/Dockerfile
+    ports:
+      - "5000:8080"
+      - "5050:8081"
+    environment:
+      - ConnectionStrings__AuthDBContext=Server=sqlserver-main;Database=AuthDB;User Id=sa;Password=StrongP@ssw0rd;TrustServerCertificate=True;
+      - RabbitMQ__HostName=rabbitmq
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      - sqlserver-main
+      - rabbitmq
+    networks:
+      - mynetwork
+
+  event.features:
+    image: eventfeatures
+    build:
+      context: .
+      dockerfile: Services/Event/Event.Features/Dockerfile
+    ports:
+      - "5001:8080"
+      - "5051:8081"
+    environment:
+      - ConnectionStrings__EventDBContext=Server=sqlserver-main;Database=EventDB;User Id=sa;Password=StrongP@ssw0rd;TrustServerCertificate=True;
+      - RabbitMQ__HostName=rabbitmq
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      - sqlserver-main
+      - rabbitmq
+    networks:
+      - mynetwork
+
+  project.api:
+    image: projectapi
+    build:
+      context: .
+      dockerfile: Services/Project/Project.API/Dockerfile
+    ports:
+      - "5002:8080"
+      - "5052:8081"
+    environment:
+      - ConnectionStrings__ProjectDBContext=Server=sqlserver-main;Database=ProjectDB;User Id=sa;Password=StrongP@ssw0rd;TrustServerCertificate=True;
+      - RabbitMQ__HostName=rabbitmq
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      - sqlserver-main
+      - rabbitmq
+    networks:
+      - mynetwork
+
+  yarpapigateway:
+    image: yarpapigateway
+    build:
+      context: .
+      dockerfile: ApiGateways/YarpApiGateway/Dockerfile
+    ports:
+      - "5003:8080"
+      - "5053:8081" 
+    environment:
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    depends_on:
+      - rabbitmq
+    networks:
+      - mynetwork
+
+  sqlserver-main:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "StrongP@ssw0rd"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sqlserver-main-data:/var/opt/mssql
+    networks:
+      - mynetwork
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    networks:
+      - mynetwork
+
+volumes:
+  sqlserver-main-data:
+
+networks:
+  mynetwork:
+    driver: bridge

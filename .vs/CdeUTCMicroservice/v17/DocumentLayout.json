@@ -1,0 +1,376 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D10F579F-507E-4B74-84F6-CFB29F878829}|Services\\Auth\\Auth.API\\Auth.API.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D10F579F-507E-4B74-84F6-CFB29F878829}|Services\\Auth\\Auth.API\\Auth.API.csproj|solutionrelative:services\\auth\\auth.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\project\\createproject\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\project\\createproject\\createprojectrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\data\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\data\\ibaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\movefile\\movefilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\movefile\\movefilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B647A821-ADBA-494C-8253-8A9B1414FDC3}|Services\\AI-LLM\\AI-LLM.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\ai-llm\\service\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B647A821-ADBA-494C-8253-8A9B1414FDC3}|Services\\AI-LLM\\AI-LLM.csproj|solutionrelative:services\\ai-llm\\service\\geminiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71DC0CCE-F2E1-49AB-B349-1E098A962ACB}|ApiGateways\\YarpApiGateway\\YarpApiGateway.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\apigateways\\yarpapigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71DC0CCE-F2E1-49AB-B349-1E098A962ACB}|ApiGateways\\YarpApiGateway\\YarpApiGateway.csproj|solutionrelative:apigateways\\yarpapigateway\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\deletefolder\\deletefolderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\deletefolder\\deletefolderhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5897998A-302D-4C8E-B94C-4B78998C4F9F}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\buildingblocks\\buildingblocks\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5897998A-302D-4C8E-B94C-4B78998C4F9F}|BuildingBlocks\\BuildingBlocks\\BuildingBlocks.csproj|solutionrelative:buildingblocks\\buildingblocks\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682287E7-B86D-4ECF-8EC2-5A5B4947655B}|Services\\Project\\Project.Domain\\Project.Domain.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.domain\\entities\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682287E7-B86D-4ECF-8EC2-5A5B4947655B}|Services\\Project\\Project.Domain\\Project.Domain.csproj|solutionrelative:services\\project\\project.domain\\entities\\folder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682287E7-B86D-4ECF-8EC2-5A5B4947655B}|Services\\Project\\Project.Domain\\Project.Domain.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.domain\\entities\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682287E7-B86D-4ECF-8EC2-5A5B4947655B}|Services\\Project\\Project.Domain\\Project.Domain.csproj|solutionrelative:services\\project\\project.domain\\entities\\file.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\deletefile\\deletefilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\deletefile\\deletefilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\deletestorages\\deletestorageshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\deletestorages\\deletestorageshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\getstoragedeleted\\getstoragedeletedhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\getstoragedeleted\\getstoragedeletedhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\getstoragedeleted\\getstoragedeletedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\getstoragedeleted\\getstoragedeletedrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.application\\features\\storage\\deletestorages\\deletestoragesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1555BB5-276D-461C-B3E2-699E9BEC6ED6}|Services\\Project\\Project.Application\\Project.Application.csproj|solutionrelative:services\\project\\project.application\\features\\storage\\deletestorages\\deletestoragesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9ADD497-C817-483D-A065-67EF35382D0E}|Services\\Project\\Project.API\\Project.API.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9ADD497-C817-483D-A065-67EF35382D0E}|Services\\Project\\Project.API\\Project.API.csproj|solutionrelative:services\\project\\project.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99591530-65D7-4E0A-83BC-2F679994C35D}|Services\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{99591530-65D7-4E0A-83BC-2F679994C35D}|Services\\Project\\Project.Infrastructure\\Project.Infrastructure.csproj|solutionrelative:services\\project\\project.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B672F4FA-1536-4183-AE42-503640E24350}|Services\\Event\\Event.Features\\Event.Features.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\event\\event.features\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B672F4FA-1536-4183-AE42-503640E24350}|Services\\Event\\Event.Features\\Event.Features.csproj|solutionrelative:services\\event\\event.features\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B647A821-ADBA-494C-8253-8A9B1414FDC3}|Services\\AI-LLM\\AI-LLM.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\ai-llm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B647A821-ADBA-494C-8253-8A9B1414FDC3}|Services\\AI-LLM\\AI-LLM.csproj|solutionrelative:services\\ai-llm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B672F4FA-1536-4183-AE42-503640E24350}|Services\\Event\\Event.Features\\Event.Features.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\event\\event.features\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B672F4FA-1536-4183-AE42-503640E24350}|Services\\Event\\Event.Features\\Event.Features.csproj|solutionrelative:services\\event\\event.features\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9ADD497-C817-483D-A065-67EF35382D0E}|Services\\Project\\Project.API\\Project.API.csproj|c:\\users\\hong phuc\\desktop\\study\\cde-common data environment\\cde-utc-microservice\\cdeutcmicroservice\\services\\project\\project.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B9ADD497-C817-483D-A065-67EF35382D0E}|Services\\Project\\Project.API\\Project.API.csproj|solutionrelative:services\\project\\project.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1766,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1120,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProjectRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Project\\CreateProject\\CreateProjectRequest.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Project\\CreateProject\\CreateProjectRequest.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Project\\CreateProject\\CreateProjectRequest.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Project\\CreateProject\\CreateProjectRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:13:14.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoveFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\MoveFile\\MoveFileHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\MoveFile\\MoveFileHandler.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\MoveFile\\MoveFileHandler.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\MoveFile\\MoveFileHandler.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAiwCYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T18:08:55.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GeminiService.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\AI-LLM\\Service\\GeminiService.cs",
+              "RelativeDocumentMoniker": "Services\\AI-LLM\\Service\\GeminiService.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\AI-LLM\\Service\\GeminiService.cs",
+              "RelativeToolTip": "Services\\AI-LLM\\Service\\GeminiService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T10:24:12.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\ApiGateways\\YarpApiGateway\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiGateways\\YarpApiGateway\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\ApiGateways\\YarpApiGateway\\appsettings.json",
+              "RelativeToolTip": "ApiGateways\\YarpApiGateway\\appsettings.json",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-11T10:18:39.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteFolderHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteFolder\\DeleteFolderHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteFolder\\DeleteFolderHandler.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteFolder\\DeleteFolderHandler.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteFolder\\DeleteFolderHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAACJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:32:57.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Auth\\Auth.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Auth\\Auth.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Auth\\Auth.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Auth\\Auth.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T14:24:13.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IBaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Data\\IBaseRepository.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Data\\IBaseRepository.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Data\\IBaseRepository.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Data\\IBaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T02:10:11.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DeleteFileHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteFile\\DeleteFileHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteFile\\DeleteFileHandler.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteFile\\DeleteFileHandler.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteFile\\DeleteFileHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:32:42.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "File.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Domain\\Entities\\File.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Domain\\Entities\\File.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Domain\\Entities\\File.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Domain\\Entities\\File.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:29:41.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteStoragesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesHandler.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesHandler.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:49:26.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Folder.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Domain\\Entities\\Folder.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Domain\\Entities\\Folder.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Domain\\Entities\\Folder.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Domain\\Entities\\Folder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T08:14:53.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\BuildingBlocks\\BuildingBlocks\\Setting.cs",
+              "RelativeDocumentMoniker": "BuildingBlocks\\BuildingBlocks\\Setting.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\BuildingBlocks\\BuildingBlocks\\Setting.cs",
+              "RelativeToolTip": "BuildingBlocks\\BuildingBlocks\\Setting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T03:19:59.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetStorageDeletedHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedHandler.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedHandler.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedHandler.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T10:28:51.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DeleteStoragesRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesRequest.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesRequest.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesRequest.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\DeleteStorages\\DeleteStoragesRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T03:50:54.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetStorageDeletedRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedRequest.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedRequest.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedRequest.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Application\\Features\\Storage\\GetStorageDeleted\\GetStorageDeletedRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:27:31.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.API\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.API\\Program.cs",
+              "RelativeToolTip": "Services\\Project\\Project.API\\Program.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAEUAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:24:23.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "Services\\Project\\Project.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:23:34.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Event\\Event.Features\\Program.cs",
+              "RelativeDocumentMoniker": "Services\\Event\\Event.Features\\Program.cs",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Event\\Event.Features\\Program.cs",
+              "RelativeToolTip": "Services\\Event\\Event.Features\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T02:22:52.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Project\\Project.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Project\\Project.API\\appsettings.json",
+              "RelativeToolTip": "Services\\Project\\Project.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T14:24:24.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Event\\Event.Features\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\Event\\Event.Features\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\Event\\Event.Features\\appsettings.json",
+              "RelativeToolTip": "Services\\Event\\Event.Features\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T14:24:18.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\AI-LLM\\appsettings.json",
+              "RelativeDocumentMoniker": "Services\\AI-LLM\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hong Phuc\\Desktop\\Study\\CDE-Common Data Environment\\CDE-UTC-Microservice\\CdeUTCMicroservice\\Services\\AI-LLM\\appsettings.json",
+              "RelativeToolTip": "Services\\AI-LLM\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-08T14:23:34.192Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

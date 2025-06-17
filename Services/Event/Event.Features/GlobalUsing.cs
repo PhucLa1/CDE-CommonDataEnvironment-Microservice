@@ -1,0 +1,15 @@
+﻿global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using BuildingBlocks;
+global using BuildingBlocks.CQRS;
+global using BuildingBlocks.Extensions;
+global using Event.Core.Entities;
+global using Event.Infrastructure.Data.Base;
+global using BuildingBlocks.ApiResponse;
+global using FluentValidation;
+global using BuildingBlocks.Exceptions;
+global using Microsoft.EntityFrameworkCore;
+global using BuildingBlocks.Messaging.Events;
+global using Event.Infrastructure.Email;
+global using Event.Shared.DTOs.Models;
+global using MassTransit;
